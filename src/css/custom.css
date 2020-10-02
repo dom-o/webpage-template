@@ -1,5 +1,7 @@
 /* include custom css here */
-body {color: red;}
+body {
+  color: red;
+}
 table {
   margin: 0rem 0rem 0.5rem;
   border-collapse: collapse;
@@ -13,4 +15,9 @@ td, th {
 }
 th:nth-child(even), td:nth-child(even) {
   background: #3e3e3e
+}
+.table-container {
+  margin: 0.5rem 0rem 2rem;
+  overflow-x: auto;
+  max-width: none;
 }
