@@ -1,0 +1,16 @@
+/* include custom css here */
+body {color: red;}
+table {
+  margin: 0rem 0rem 0.5rem;
+  border-collapse: collapse;
+}
+th {
+  border-bottom: solid #fff;
+}
+td, th {
+  padding: 0rem 1rem;
+  text-align: center;
+}
+th:nth-child(even), td:nth-child(even) {
+  background: #3e3e3e
+}
